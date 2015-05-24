@@ -72,7 +72,7 @@ run_analysis <- function() {
   }
   
   # output file
-  write.table(summarised_data, file = "output.txt")
+  write.table(summarised_data, file = "output.txt", row.name=FALSE)
 
   # return data
   data
